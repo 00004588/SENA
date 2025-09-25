@@ -1,0 +1,407 @@
+
+*{
+    font-family: 'Roboto';
+}
+
+div{
+    border-radius: 3px;
+}
+
+nav{
+display: grid;
+grid-template-columns: 30% 6fr;
+height: 200px;
+padding: 4px;
+grid-gap: 5px;
+}
+
+nav div{
+/* border: 1px solid red; */
+height: 200px;
+background-color: #3f292f;
+}
+
+.logo img{
+width: 50%;
+height: 170px;
+padding: 10px;
+margin-left: 100px;
+}
+
+.logan p{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+ul{
+    display: flex;
+    width: 15000px;
+    font-size: 20px;
+    /* border: 1px solid red; */
+    flex-wrap: nowrap;
+    gap: 1rem;
+    position: relative;
+    left: 35%;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+   text-decoration: none;
+   color: black;
+}
+
+ul li a:hover{
+    background-color:  #EC253F;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.cursos{
+    display: grid;
+    grid-template-columns: 30% 5fr;
+    height: 220px;
+    grid-gap: 5px;
+}
+
+.curso div{
+    background-color: red;
+}
+
+.descubremas{
+     background-color:  #EC253F;
+     text-align: center;
+     color: white;
+     padding:20px;
+}
+
+.descubremas button{
+    border: 0;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: width 0.5s;
+}
+
+.descubremas button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    width: 180px;
+}
+
+.descubremas button a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.cursosdestacados {
+    width: 100%;
+    background-color: #3f292f;
+    /* border-left: 7px solid white; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+
+.cursosdestacados img{
+    width: 100px;
+    margin-left: 50px;
+    border: 1px solid white;
+    padding: 12px;
+    border-radius: 50px;
+}
+
+
+.cursosdestacados img:hover {
+    opacity: 0.1;
+    visibility: visible;
+    cursor: pointer;
+    width: 90px;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+.cursosdestacados p{
+    position:absolute;
+    margin-top: -150px;
+    color: white;
+    font-size: 18px;
+    margin-left: 150px;
+}
+
+.uno{
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+}
+
+.uno p{
+    width: 300px;
+    position: absolute;
+    top: 200px;
+}
+
+.dos{
+    position: absolute;
+    color: white;
+    top: 20px;
+    left: 0;
+}
+
+.dos p{
+    width: 300px;
+    position: absolute;
+    top: 200px;
+}
+
+.tres{
+    position: absolute;
+    color: white;
+    top: 40px;
+    left: 0;
+}
+
+.tres p{
+    width: 300px;
+    position: absolute;
+    top: 200px;
+}
+
+
+/* profesores*/
+
+.profesores{
+    height: 200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 1fr 1fr;
+    margin-top: 20px;
+    grid-gap: 5px;
+}
+
+.profesores div{
+    padding: 20px;
+    /* border:1px solid white; */
+    background-color: white;
+    color: black;
+    border: 3px solid #EC253F;
+}
+
+.fotoprofesores{
+    margin-right: 12px;
+}
+.fotoprofesores p{
+    font-size: 20px;
+    margin-top: -10px;
+    text-align: center;
+
+}
+
+.fotoprofesores img{
+    width: 250px;
+}
+
+/* videos explicativos */
+
+.videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top:100px;
+    background-color: #EC253F;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.videos div{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.videos img{
+    width: 100%;
+    transition: width 0.4s;
+
+}
+
+.videos div img:hover{
+    width: 90%;
+    cursor: pointer;
+}
+
+.videos p{
+    font-size: 19px;
+}
+
+.videos button{
+    width: 90%;
+    border-radius: 100px;
+    border: 0;
+    margin-bottom: 10px;
+    background-color: rgb(175, 175, 175);
+    padding: 10px;
+
+}
+
+.videos button:hover{
+    cursor: pointer;
+    width: 92%;
+    background-color: rgba(175, 175, 175, 0.85);
+}
+
+/* footer */
+
+footer{
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr;
+    background-color: rgba(48, 48, 48, 0.85);
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 30px;
+    width: 100%;
+    position: relative;
+}
+
+footer div ul{
+    display: flex;
+    width: 200px;
+    border-left: 1px solid white;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer div ul li a{
+    color: white;
+}
+
+.iconos{
+    position: absolute;
+    bottom: 11px;
+    left: 1100px;
+
+}
+
+.iconos img{
+    width: 35px;
+}
+
+.iconos img:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+
+.titulo{
+    font-size: 20px;
+    color: rgb(197, 197, 197);
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    width: 40px; 
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header {
+    width: 100%;
+  }
+
+  .logo{
+    width: 350px;
+  }
+
+  .logan{
+    width: 350px;
+  }
+
+  .logan p{
+    font-size: 30px;
+  }
+
+  .navegacion{
+        margin: 0;
+        position: relative;
+        left: -30px;
+        top: -30px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+  }
+  nav{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin-bottom: 200px;
+
+  }
+
+  nav .loga p{
+    font-size: 10px;
+  }
+
+  .cursos{
+    display: block;
+    flex-direction: column;
+    margin-bottom: 300px;
+  }
+  .cursosdestacados{
+    margin-top: 100px;
+    display: block;
+  }
+
+  .cursosdestacados a{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 40px;
+    
+  }
+
+  .cursosdestacados p{
+    margin-top:90px;
+  }
+
+  .profesores{
+    display: block;
+    margin-top: 800px;
+    width: 89%;
+  }
+
+  .profesores div{
+    width: 100%;
+  }
+
+  .videos{
+    margin-top: 500px;
+  }
+
+  footer{
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+
+  footer div{
+    width: 100px;
+  }
+
+}
